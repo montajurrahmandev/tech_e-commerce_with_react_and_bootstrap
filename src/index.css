@@ -1,0 +1,49 @@
+/* All Common CSS  */
+body{    
+    background: gray ;
+    font-family: "Poppins", sans-serif !important;
+    color: #000000;
+}
+
+.fs-12{
+  font-size: 12px !important;
+}
+.fs-14{
+  font-size: 14px !important;
+}
+.fs-16, body {
+  font-size: 16px !important;
+}
+.fs-20{
+  font-size: 20px !important;
+}
+.fs-24{
+  font-size: 24px !important;
+}
+.fs-32{
+  font-size: 32px !important;
+}
+.fs-36{
+  font-size: 36px !important;
+}
+.fs-48{
+  font-size: 48px !important;
+}
+
+/* Header part  */
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  padding: 0 26px !important;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  color: #b88e2f;
+}
+
+.icons i {
+  padding: 0 15px;
+  color: #000000;
+}
