@@ -1,1 +1,33 @@
 /* All common css */
+.text-FAFAFA{
+    color: #FAFAFA;
+}
+.text-DB4444{
+    color: #DB4444;
+}
+.bg-DB4444{
+    background: #DB4444;
+}
+.text-FFAD33{
+    color: #FFAD33;
+}
+.bg-F5F5F5{
+    background: #F5F5F5;
+}
+.bg-959496{
+    background: #959496;
+}
+
+
+.top-right-5{
+    top: 5%;
+    right: 5%;
+}
+.bottom-left-5{
+    bottom: 5%;
+    left: 5%;
+}
+
+.custom-letter-spacing{
+    letter-spacing: 2px;
+}

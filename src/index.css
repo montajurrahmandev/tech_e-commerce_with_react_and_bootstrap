@@ -1,17 +1,21 @@
 /* All Common CSS  */
 body{    
-    background: gray ;
+    background: ;
+    
+    
     font-family: "Poppins", sans-serif !important;
     color: #000000;
+    font-size: 16px !important;
 }
 
 .fs-12{
   font-size: 12px !important;
+  
 }
 .fs-14{
   font-size: 14px !important;
 }
-.fs-16, body {
+.fs-16 {
   font-size: 16px !important;
 }
 .fs-20{
@@ -30,6 +34,37 @@ body{
   font-size: 48px !important;
 }
 
+a{
+  display: inline-block; 
+  text-decoration: none;
+  color: unset;
+  padding: 0;
+  
+
+}
+ul,ol{
+  list-style-type: none;
+  padding: 0;
+}
+
+/* product */
+.add-to-cart{
+  padding: 16px;
+  background: #000;
+  color: white;
+  width: 100%;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: none;
+}
+.product-img{
+  transition: 0.4s ease-in-out;
+}
+.product-img:hover .add-to-cart{
+display: block;
+}
+
 /* Header part  */
 .nav-link {
   font-size: 16px;
@@ -38,6 +73,7 @@ body{
   color: #000000;
   padding: 0 26px !important;
   transition: 0.4s;
+
 }
 .nav-link:hover {
   color: #b88e2f;
@@ -47,3 +83,51 @@ body{
   padding: 0 15px;
   color: #000000;
 }
+
+/* Home Page  */
+.sectionHeading{
+  font-size: 36px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 4%;
+}
+
+.browseCategory .prev-arrow,
+.browseCategory .next-arrow,
+.ourProduct .prev-arrow,
+.ourProduct .next-arrow {
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+}
+
+/* BrowseCategory */
+.browseCategory .box{
+  height: 145px;
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  color: #000;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.browseCategory .box:hover{
+background: #DB4444;
+  color: #FAFAFA;
+}
+.browseCategory .box:hover .deviceIcon{
+  color: #fff;
+}
+
+.browseCategory .deviceIcon{
+  font-size: 56px;
+}
+
+/* bestSelling */
+
+
+
+
+
+
+
+

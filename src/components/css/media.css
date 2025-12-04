@@ -1,5 +1,10 @@
 /* Phones only (<576px) */
 @media (max-width: 575.98px) {
+    header input{
+        margin: 0;
+        width: 100% !important;
+
+    }
 
   
 }

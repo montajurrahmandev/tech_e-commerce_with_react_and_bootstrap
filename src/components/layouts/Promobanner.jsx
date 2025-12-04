@@ -4,7 +4,7 @@ import banner from "/src/assets/promobanner.png";
 
 const PromoBanner = () => {
   return (
-    <Container className="my-4">
+    <Container className="mt-5 pt-4">
       <div className="">
            
 

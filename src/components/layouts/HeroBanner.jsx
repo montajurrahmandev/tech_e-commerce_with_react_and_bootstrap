@@ -5,13 +5,13 @@ import CategoryNav from "./CategoryNav";
 
 const HeroBanner = () => {
   return (
-    <Container className="my-5">
+    <Container className="">
       <div className="row">
-        <div className="col-lg-3">
+        <div className="col-lg-3 ">
           <CategoryNav/>
         </div>
            
-        <div className="col-lg-9">
+        <div className="col-lg-9 pt-5">
           <img src={banner} alt="banner" className="w-100" />
         </div>
       </div>
