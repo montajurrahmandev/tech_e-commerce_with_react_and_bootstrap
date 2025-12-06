@@ -24,8 +24,8 @@ import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
 const OurProduct = () => {
   return (
     <>
-      <section className="ourProduct mt-5 pt-5">
-        <Container className="my-5">
+      <section className="ourProduct mt-5 pt-md-5">
+        <Container className="pt-5">
           <div className="text-DB4444 fw-semibold d-flex align-items-center column-gap-3">
             <div
               style={{
@@ -38,7 +38,7 @@ const OurProduct = () => {
             Our Products
           </div>
 
-          <div className="d-flex justify-content-between align-items-center mt-4">
+         <div className="d-flex justify-content-between align-items-end  mt-2 mt-md-4">
             <div>
               <Heading
                 text="Explore Our Products"
@@ -46,14 +46,14 @@ const OurProduct = () => {
                 className="sectionHeading"
               />
             </div>
-            <div className="d-flex align-items-center column-gap-3">
-              <div className="prev-arrow">
-                <FaLongArrowAltLeft />
-              </div>
-              <div className="next-arrow">
-                <FaLongArrowAltRight />
-              </div>
+          <div className="d-flex flex-column flex-md-row align-items-center column-gap-3 row-gap-2">
+            <div className="prev-arrow">
+              <FaLongArrowAltLeft />
             </div>
+            <div className="next-arrow">
+              <FaLongArrowAltRight />
+            </div>
+          </div>
           </div>
           <div className="productPart mt-5">
             <Swiper
@@ -188,7 +188,7 @@ const OurProduct = () => {
             </Swiper>
 
             <div className="d-flex justify-content-center mt-5">
-              <Link className="bg-DB4444 text-white px-5 py-3 rounded-2">
+              <Link className="bg-DB4444 text-white px-4 px-md-5 py-2 py-md-3 rounded-2">
                 View All Products
               </Link>
             </div>

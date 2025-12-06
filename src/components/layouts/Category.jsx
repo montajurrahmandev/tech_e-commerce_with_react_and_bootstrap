@@ -15,7 +15,7 @@ import { FaLongArrowAltLeft, FaLongArrowAltRight } from "react-icons/fa";
 
 const Category = () => {
   return (
-    <section id="browseCategory" className="browseCategory pt-5 mt-5">
+    <section id="browseCategory" className="browseCategory pt-md-5 mt-5">
       <Container className="pt-5">
         <div className="text-DB4444 fw-semibold d-flex align-items-center column-gap-3">
           <div
@@ -29,7 +29,7 @@ const Category = () => {
           Categories
         </div>
 
-        <div className="d-flex justify-content-between align-items-center mt-4">
+        <div className="d-flex justify-content-between align-items-end  mt-2 mt-md-4">
           <div>
             <Heading
               text="Browse By Category"
@@ -37,7 +37,7 @@ const Category = () => {
               className="sectionHeading"
             />
           </div>
-          <div className="d-flex align-items-center column-gap-3">
+          <div className="d-flex flex-column flex-md-row align-items-center column-gap-3 row-gap-2">
             <div className="prev-arrow">
               <FaLongArrowAltLeft />
             </div>

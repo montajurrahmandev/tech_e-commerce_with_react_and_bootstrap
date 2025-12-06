@@ -21,7 +21,7 @@ const Footer = () => {
     <footer className="mt-5 pt-5">
       <div className="pt-5 pb-4 bg-black  text-FAFAFA">
         <Container className="pt-4">
-          <Row className="text-white d-flex justify-content-between">
+          <Row className="text-white d-flex justify-content-between row-gap-4">
             {/* Exclusive */}
             <Col md={3} className="mb-4">
               <Heading text="Exclusive" as="h5" className="fs-24 fw-bold" />
@@ -53,22 +53,20 @@ const Footer = () => {
                 className="fs-20 fw-medium mb-2"
               />
 
-              <p className="footer-text mt-4">
-                house, street, city, country
-              </p>
+              <p className="footer-text mt-4">house, street, city, country</p>
               <p className="footer-text my-3">company@domain.com</p>
               <p className="footer-text">01.........</p>
             </Col>
 
             {/* Account */}
-            <Col md={2} className="mb-4">
+            <Col md={2} className="account mb-4">
               <Heading
                 text="Account"
                 as="h5"
                 className="fs-20 fw-medium mb-2"
               />
 
-              <ul className="mt-4 d-flex flex-column row-gap-3">
+              <ul className="mt-4 d-flex flex-row flex-md-column flex-wrap justify-content-between row-gap-3">
                 <li>My Account</li>
                 <li>Login / Register</li>
                 <li>Cart</li>
@@ -78,14 +76,14 @@ const Footer = () => {
             </Col>
 
             {/* Quick Link */}
-            <Col md={2} className="mb-4">
+            <Col md={2} className="quick-link mb-4">
               <Heading
                 text="Quick Link"
                 as="h5"
                 className="fs-20 fw-medium mb-2"
               />
 
-              <ul className=" mt-4 d-flex flex-column row-gap-3">
+              <ul className="mt-4 d-flex flex-row flex-md-column flex-wrap justify-content-between row-gap-3">
                 <li>Privacy Policy</li>
                 <li>Terms Of Use</li>
                 <li>FAQ</li>
@@ -107,12 +105,13 @@ const Footer = () => {
 
               <div className="d-flex align-items-start gap-2 mt-2">
                 <div className="w-50">
-                  <img src={""} alt="QR" className="w-100 img-fluid" />
+                  <img
+                    src={""}
+                    alt="QR"
+                    className="w-100 img-fluid d-flex justify-content-center align-items-center h-100"
+                  />
                 </div>
-                <div
-                  className="d-flex flex-column justify-content-between w-50"
-                  style={{ height: "94px" }}
-                >
+                <div className="d-flex flex-column justify-content-between  w-50 gap-4">
                   <img
                     src={googlePlay}
                     alt="Google Play"
@@ -127,7 +126,7 @@ const Footer = () => {
               </div>
 
               {/* Social Icons */}
-              <div className="mt-4 fs-20 d-flex gap-4">
+              <div className="mt-4 fs-20 d-flex justify-content-between">
                 <FaFacebookF />
                 <FaTwitter />
                 <FaInstagram />
@@ -136,11 +135,11 @@ const Footer = () => {
             </Col>
           </Row>
         </Container>
-      <hr />
-      <div className="text-white mt-4 opacity-50 d-flex align-items-center justify-content-center gap-2">
-        <FaRegCopyright className="fs-20" /> Copyright Rimel 2024. All rights
-        reserved
-      </div>
+        <hr />
+        <div className="text-white mt-4 opacity-50 d-flex align-items-center justify-content-center gap-2">
+          <FaRegCopyright className="fs-20" /> Copyright Rimel 2024. All rights
+          reserved
+        </div>
       </div>
 
       {/* Copyright */}

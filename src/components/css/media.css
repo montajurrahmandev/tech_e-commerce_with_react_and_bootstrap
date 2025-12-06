@@ -1,26 +1,39 @@
 /* Phones only (<576px) */
 @media (max-width: 575.98px) {
-    header input{
-        margin: 0;
-        width: 100% !important;
 
-    }
+  .sectionHeading {
+    font-size: 24px;
 
-  
+  }
+  header input {
+    margin: 0;
+    width: 100% !important;
+  }
+  .heroBanner .custom-bg {
+    background: gray;
+    padding: 10px 0;
+  }
+  .newArrival .img-card p{
+    width: 150px;
+  }
+  .newArrival #right-content {
+ height: auto;
 }
-@media (min-width: 576px) and (max-width: 767.98px ) { 
-
-  
+footer .account li{
+    width: 50%;
+}
+footer .quick-link li{
+    width: 50%;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
 }
 
 /* Tablets and up (≥768px) */
 @media (min-width: 768px) {
 
-  
 }
 
 /* Desktops and up (≥992px) */
 @media (min-width: 992px) {
-
 }
-

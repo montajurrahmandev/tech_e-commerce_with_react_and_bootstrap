@@ -6,7 +6,7 @@ const Feature = () => {
   return (
     <section className=" pt-5">
       <Container className="mt-5">
-        <Row className="text-center justify-content-center align-items-start">
+        <Row className="text-center justify-content-center align-items-start row-gap-5">
           <Col md={3}>
             <div className="feature-item">
               <div className="feature-icon bg-959496 p-2 d-inline-block rounded-circle">

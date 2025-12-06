@@ -1,54 +1,51 @@
 /* All Common CSS  */
-body{    
-    background: ;
-    
-    
-    font-family: "Poppins", sans-serif !important;
-    color: #000000;
-    font-size: 16px !important;
+body {
+  background: ;
+
+  font-family: "Poppins", sans-serif !important;
+  color: #000000;
+  font-size: 16px !important;
 }
 
-.fs-12{
+.fs-12 {
   font-size: 12px !important;
-  
 }
-.fs-14{
+.fs-14 {
   font-size: 14px !important;
 }
 .fs-16 {
   font-size: 16px !important;
 }
-.fs-20{
+.fs-20 {
   font-size: 20px !important;
 }
-.fs-24{
+.fs-24 {
   font-size: 24px !important;
 }
-.fs-32{
+.fs-32 {
   font-size: 32px !important;
 }
-.fs-36{
+.fs-36 {
   font-size: 36px !important;
 }
-.fs-48{
+.fs-48 {
   font-size: 48px !important;
 }
 
-a{
-  display: inline-block; 
+a {
+  display: inline-block;
   text-decoration: none;
   color: unset;
   padding: 0;
-  
-
 }
-ul,ol{
+ul,
+ol {
   list-style-type: none;
   padding: 0;
 }
 
 /* product */
-.add-to-cart{
+.add-to-cart {
   padding: 16px;
   background: #000;
   color: white;
@@ -58,11 +55,11 @@ ul,ol{
   border-bottom-right-radius: 10px;
   display: none;
 }
-.product-img{
+.product-img {
   transition: 0.4s ease-in-out;
 }
-.product-img:hover .add-to-cart{
-display: block;
+.product-img:hover .add-to-cart {
+  display: block;
 }
 
 /* Header part  */
@@ -73,7 +70,6 @@ display: block;
   color: #000000;
   padding: 0 26px !important;
   transition: 0.4s;
-
 }
 .nav-link:hover {
   color: #b88e2f;
@@ -85,11 +81,13 @@ display: block;
 }
 
 /* Home Page  */
-.sectionHeading{
+.sectionHeading {
   font-size: 36px;
   font-weight: 600;
   color: #000;
   letter-spacing: 4%;
+  padding: 0;
+  margin: 0;
 }
 
 .browseCategory .prev-arrow,
@@ -102,7 +100,7 @@ display: block;
 }
 
 /* BrowseCategory */
-.browseCategory .box{
+.browseCategory .box {
   height: 145px;
   width: 100%;
   border: 2px solid rgba(0, 0, 0, 0.3);
@@ -110,24 +108,24 @@ display: block;
   transition: 0.4s;
   cursor: pointer;
 }
-.browseCategory .box:hover{
-background: #DB4444;
-  color: #FAFAFA;
+.browseCategory .box:hover {
+  background: #db4444;
+  color: #fafafa;
 }
-.browseCategory .box:hover .deviceIcon{
+.browseCategory .box:hover .deviceIcon {
   color: #fff;
 }
 
-.browseCategory .deviceIcon{
+.browseCategory .deviceIcon {
   font-size: 56px;
 }
 
 /* bestSelling */
 
-
-
-
-
-
-
-
+/* New Arrival */
+.newArrival #right-content {
+ height: 669px;
+}
+.newArrival .img-card p {
+  width: 250px;
+}

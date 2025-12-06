@@ -15,19 +15,14 @@ const categories = [
 const CategoryNav = () => {
   return (
     <div
-      className="h-100  pt-5 "
-      style={{
-        width: "220px",
-        borderRight: "1px solid #fafafa",
-    
-        
-      }}
+      className="h-100  pt-5 m-auto m-md-0 text-center text-md-start w-100"
+
     >
-      <ul className="list-unstyled m-0 d-flex flex-column justify-content-between h-100">
+      <ul className=" list-unstyled m-0 d-flex flex-column justify-content-between  row-gap-4 row-gap-md-0 h-100">
         {categories.map((cat, index) => (
           <li
             key={index}
-            className=""
+            className="custom-bg"
             style={{
               fontSize: "16px",
               cursor: "pointer",

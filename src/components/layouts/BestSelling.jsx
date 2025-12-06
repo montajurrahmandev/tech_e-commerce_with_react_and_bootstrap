@@ -39,7 +39,7 @@ const BestSelling = () => {
             as="h3"
             className="sectionHeading"
           />
-          <Link className="bg-DB4444 text-white px-5 py-3 rounded-2">
+          <Link className="bg-DB4444 text-white d-block px-4 px-md-5 py-2 py-md-3 rounded-2 text-nowrap">
             View All
           </Link>
         </Flex>

@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 
 const NewArrival = () => {
   return (
-    <section className="mt-5 pt-5">
-      <Container >
+    <section className="newArrival mt-5 pt-5">
+      <Container className="">
         <div className="text-DB4444 fw-semibold d-flex align-items-center column-gap-3">
           <div
             style={{
@@ -25,11 +25,11 @@ const NewArrival = () => {
         </div>
 
         <div className="mt-4">
-          <Heading text="New Arrival" as="h3" className="" />
+          <Heading text="New Arrival" as="h3" className="sectionHeading" />
         </div>
         <div className="mt-5">
-          <Row>
-            <Col lg={6}>
+          <Row className="row-gap-5">
+            <Col md={6}>
               <div className="position-relative" >
                 <img src={new01} alt="" className="w-100 img-fluid" />
                 <div className="text-FAFAFA position-absolute bottom-left-5">
@@ -47,10 +47,10 @@ const NewArrival = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={6}>
-              <div
-                className="d-flex flex-column justify-content-between"
-                style={{ height: "669px" }}
+            <Col md={6}>
+              <div id="right-content"
+                className="d-flex flex-column justify-content-md-between row-gap-5 row-gap-md-0"
+               
               >
                 <div className="position-relative ">
                   <img src={new02} alt="" className="w-100 img-fluid" />
@@ -70,7 +70,7 @@ const NewArrival = () => {
                 </div>
 
                 <div className="d-flex column-gap-4 ">
-                  <div className="position-relative w-50">
+                  <div className="position-relative w-50 img-card">
                     <img src={new03} alt="" className="w-100 img-fluid" />
                     <div className="text-FAFAFA position-absolute bottom-left-5">
                       <Heading
@@ -78,7 +78,7 @@ const NewArrival = () => {
                         as="h5"
                         className="fs-24 fw-semibold  custom-letter-spacing"
                       />
-                      <p className="fs-14" style={{ width: "250px" }}>
+                      <p className="fs-14" >
                        Amazon wireless speakers
                       </p>
                       <Link className="border-bottom border-1 border-white">
@@ -87,7 +87,7 @@ const NewArrival = () => {
                     </div>
                   </div>
 
-                  <div className="position-relative w-50">
+                  <div className="position-relative w-50 img-card">
                     <img src={new04} alt="" className="w-100 img-fluid" />
                     <div className="text-FAFAFA position-absolute bottom-left-5">
                       <Heading
@@ -95,7 +95,7 @@ const NewArrival = () => {
                         as="h5"
                         className="fs-24 fw-semibold  custom-letter-spacing"
                       />
-                      <p className="fs-14" style={{ width: "250px" }}>
+                      <p className="fs-14" >
                         GUCCI INTENSE OUD EDP
                       </p>
                       <Link className="border-bottom border-1 border-white">
